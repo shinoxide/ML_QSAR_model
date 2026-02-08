@@ -22,6 +22,9 @@ This repository, `ML_QSAR_model`, contains Python scripts for developing machine
 6. **`5_model.py`**  
    This script runs the model using optimized and default parameters, plots the average ROC AUC over cross-validation iterations, computes various evaluation metrics, and organizes the results into directories.
 
+7. **`6_qsar_oneclick_run.py`**
+   A one-click end-to-end QSAR workflow. This script performs the complete pipeline starting from the **TableS1_Compound_Library** SDF file through model development and virtual screening of the DrugBank dataset. Ensure all required Python libraries are installed before running. Execute the script from the ML_QSAR_model directory: `python 6_qsar_oneclick_run.py`. Input data are located in the `data` directory. Trained models and virtual screening results will be written to `mod_out` directory.
+
 ## Getting Started
 
 To run these scripts, ensure that:
